@@ -1,0 +1,101 @@
+h1 {
+    padding: 8px 10px 7px 12px;
+    color: brown;
+}
+* {
+    border: none;
+}
+
+.Socials 
+{
+display:flex;
+justify-content:space-evenly;
+position: relative;
+}
+
+.Games
+{
+display: flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+}
+
+.Links
+{
+padding: 8px 10px 7px 12px;
+display: flex;
+justify-content: space-evenly;
+color: coral;
+}
+
+.Link1
+{
+display: flex;
+justify-content: left;
+color: coral;
+border: bold;
+}
+
+.Link2
+{
+display: flex;
+justify-content: right;
+color: coral;
+border: bold;
+ 
+}
+
+.Caption
+{
+display: flex;
+justify-content: space-evenly;
+color: coral
+}
+
+.Heading
+{
+display: flex;
+background: white;
+justify-content: center;
+color: orange;
+font-weight: bold;
+font-family: cursive;
+}
+
+body
+{
+    background-color: antiquewhite;
+}
+
+.Item 
+{
+display: flex;
+justify-content: space-evenly;
+}   
+
+.Item p 
+{
+position: absolute;
+top: 35%;
+transform: translate(-0%, -0%);
+}
+
+.Item:hover img 
+{
+  opacity: 1;
+}
+
+.Item:hover p
+{
+    opacity: 0.35;
+}
+
+a:link
+{
+    color: aqua;
+}
+
+a:visited
+{
+ color: crimson;
+}
